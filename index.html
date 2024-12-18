@@ -1,29 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <title>document</title>
-    <link rel="stylesheet" href="css/stles.css">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Trusted Travel Agent</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
- <header class="main-header">
-    <div class="Home-icon"></div>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Our Packages</a>
-        <a href="#">Call us</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">moqups</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Package</a></li>
+            <li><a href="#">Call Us</a></li>
+        </ul>
     </nav>
- </header>
 
-<hr />
+    <!-- Header Section -->
+    <header class="hero">
+        <h1>Your Trusted Travel Agent's</h1>
+        <p>Your happiness is our happiness</p>
+        <div class="hero-content">
+            <div class="image-placeholder"></div>
+            <blockquote>
+                <p>"Liburan jadi menyenangkan bersama Travel Agentku."</p>
+                <cite>Florence Hughes<br><span>Ibu Rumah Tangga, 28</span></cite>
+            </blockquote>
+            <form class="contact-form">
+                <h3>Contact Us</h3>
+                <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="First and last name" required>
 
-<main>
-    
-</main>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="example@email.com" required>
+
+                <label for="interest">What are you interested in?</label>
+                <select id="interest">
+                    <option>Select option</option>
+                    <option>Package Bali</option>
+                    <option>Package Jepang</option>
+                    <option>Package Singapore</option>
+                </select>
+
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h3>Use this space to provide users with more information about your offer.</h3>
+        <ul>
+            <li><strong>1</strong> Your first feature, written in the form of a benefit statement.</li>
+            <li><strong>2</strong> Your second feature, written in the form of a benefit statement.</li>
+            <li><strong>3</strong> Your third feature, written in the form of a benefit statement.</li>
+        </ul>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages">
+        <h2>Our Package</h2>
+        <div class="package-grid">
+            <div class="package-item">
+                <h4>Bali</h4>
+                <p>Travel dan wisata di Bali, kunjungi cagar budaya dan kuliner yang menarik</p>
+            </div>
+            <div class="package-item">
+                <h4>Japan</h4>
+                <p>Travel dan wisata di Japan, kunjungi cagar budaya dan kuliner yang menarik</p>
+            </div>
+            <div class="package-item">
+                <h4>Singapore</h4>
+                <p>This description supports and extends the bullet point above.</p>
+            </div>
+            <div class="package-item">
+                <h4>Bandung</h4>
+                <p>This description supports and extends the bullet point above.</p>
+            </div>
+            <div class="package-item">
+                <h4>Surabaya</h4>
+                <p>This description supports and extends the bullet point above.</p>
+            </div>
+            <div class="package-item">
+                <h4>Third Feature</h4>
+                <p>This description supports and extends the bullet point above.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing Section -->
+    <footer class="closing">
+        <h2>Your Closing Argument Headline</h2>
+        <p>Provide a compelling argument or call to action to convert your users. Donec urna neque, euismod sed justo quis, convallis tincidunt risus.</p>
+        <button class="cta-button">CALL TO ACTION</button>
+    </footer>
+
+    <div class="footer">
+        <p>moqups<br>Terms of Service | Privacy Policy<br>&copy; 2019 Moqups</p>
+    </div>
 </body>
-
 </html>
