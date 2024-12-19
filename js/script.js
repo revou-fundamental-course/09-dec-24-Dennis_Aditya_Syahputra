@@ -1,4 +1,4 @@
-// Validasi form menggunakan JavaScript
+
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
@@ -13,7 +13,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     }
 });
 
-// Fitur auto slide untuk banner
+
 var currentIndex = 0;
 var banners = ["url('banner1.jpg')", "url('banner2.jpg')", "url('banner3.jpg')"];
 var bannerElement = document.getElementById('banner');
@@ -23,4 +23,4 @@ function changeBanner() {
     currentIndex = (currentIndex + 1) % banners.length;
 }
 
-setInterval(changeBanner, 5000);  // Ganti banner setiap 5 detik
+setInterval(changeBanner, 5000);
